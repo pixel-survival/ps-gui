@@ -9,7 +9,7 @@
     "install": "npm run compile"
   },
   "repository": {
-    "type": "get",
+    "type": "git",
     "url": "git+https://https://github.com/space2pacman/ps-css.git"
   },
   "author": "",
