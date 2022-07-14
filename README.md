@@ -1,1 +1,1 @@
-# ps-css
+# ps-gui-css
