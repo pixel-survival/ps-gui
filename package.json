@@ -8,6 +8,10 @@
     "compile": "node-sass src/main.scss dist/ps.css",
     "install": "npm run compile"
   },
+  "repository": {
+    "type": "get",
+    "url": "git+https://https://github.com/space2pacman/ps-css.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
