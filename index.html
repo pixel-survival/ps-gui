@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS CSS Framework</title>
+    <link rel="stylesheet" href="dist/ps.css">
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .buttons > *, .inputs > * {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .panels > * {
+            display: inline-block;
+            margin-left: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .panels > *:first-child {
+            margin-left: 0px;
+        }
+
+        .example-login-form .ps-panel {
+            display: inline-block;
+        }
+
+        .example-login-form .ps-panel > * {
+            display: block;
+        }
+
+        .example-login-form .ps-panel input {
+            margin-bottom: 10px;
+        }
+
+        .example-login-form .ps-panel .ps-button {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+    <div class="container">
+        <h2>Buttons</h2>
+        <div class="buttons">
+            <button class="ps-button"></button>
+            <button class="ps-button ps-button--yellow"></button>
+            <button class="ps-button ps-button--green"></button>
+            <button class="ps-button ps-button--red"></button>
+            <button class="ps-button ps-button--blue"></button>
+        </div>
+        <h2>Inputs</h2>
+        <div class="inputs">
+            <input type="text" class="ps-input">
+        </div>
+        <h2>Panels</h2>
+        <div class="panels">
+            <div class="ps-panel"></div>
+            <div class="ps-panel ps-panel--yellow"></div>
+            <div class="ps-panel ps-panel--green"></div>
+            <div class="ps-panel ps-panel--red"></div>
+            <div class="ps-panel ps-panel--blue"></div>
+        </div>
+        <h2>Examples</h2>
+        <hr>
+        <h4>Login form</h4>
+        <div class="example-login-form">
+            <div class="ps-panel ps-panel--yellow">
+                <input type="text" class="ps-input" placeholder="Username">
+                <input type="password" class="ps-input" placeholder="Password">
+                <button class="ps-button ps-button--green">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

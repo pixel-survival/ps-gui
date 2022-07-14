@@ -1,0 +1,36 @@
+.ps-panel {
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 10px;
+
+    &--yellow {
+        background-color: #ffd948;
+    }
+    
+    &--green {
+        background-color: #88e060;
+    }
+    
+    &--red {
+        background-color: #fa8132;
+    }
+    
+    &--blue {
+        background-color: #2cb3ec;
+    }
+    
+    &:before {
+        content: "";
+        display: block;
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        background: rgba(0,0,0,0.1);
+        border-radius: 3px;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        z-index: 0;
+    }
+}
