@@ -36,6 +36,8 @@
     transform: none; }
   .ps-button:not(:disabled) {
     cursor: pointer; }
+  .ps-button:hover {
+    filter: brightness(105%); }
 
 .ps-input {
   width: 100%;
