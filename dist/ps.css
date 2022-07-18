@@ -53,6 +53,8 @@
   box-sizing: border-box; }
   .ps-input:focus {
     border-color: none; }
+  .ps-input:disabled {
+    background-color: #e9ecef; }
 
 .ps-panel {
   position: relative;

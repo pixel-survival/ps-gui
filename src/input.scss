@@ -13,4 +13,8 @@
     &:focus {
         border-color: none;
     }
+
+    &:disabled {
+        background-color: #e9ecef;
+    }
 }
