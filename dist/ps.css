@@ -32,8 +32,7 @@
     left: 3px; }
   .ps-button:disabled {
     opacity: 0.65;
-    pointer-events: none;
-    transform: none; }
+    pointer-events: none; }
   .ps-button:not(:disabled) {
     cursor: pointer; }
   .ps-button:hover {
