@@ -1,1 +1,1 @@
-# ps-gui
+# ps.ui
