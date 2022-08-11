@@ -43,7 +43,6 @@
   border-radius: 4px;
   padding: 10px 10px;
   border: 2px solid #c6c6c6;
-  position: relative;
   outline: none;
   box-shadow: inset 0px 2px rgba(198, 198, 198, 0.3);
   font-size: 18px;
@@ -56,25 +55,20 @@
 .ps-panel {
   position: relative;
   border-radius: 5px;
-  border: 2px solid rgba(0, 0, 0, 0.25);
+  background-color: #e5e5e5;
+  box-shadow: inset 0px 0px 0px 2px #fff;
+  border: 2px solid rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   padding: 10px; }
   .ps-panel--yellow {
-    background-color: #ffd948; }
+    background-color: #e5c341;
+    box-shadow: inset 0px 0px 0px 2px #ffd948; }
   .ps-panel--green {
-    background-color: #88e060; }
+    background-color: #7ac956;
+    box-shadow: inset 0px 0px 0px 2px #88e060; }
   .ps-panel--red {
-    background-color: #fa8132; }
+    background-color: #e1742d;
+    box-shadow: inset 0px 0px 0px 2px #fa8132; }
   .ps-panel--blue {
-    background-color: #2cb3ec; }
-  .ps-panel:before {
-    content: "";
-    display: block;
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    position: absolute;
-    left: 2px;
-    top: 2px;
-    z-index: 0; }
+    background-color: #28a1d4;
+    box-shadow: inset 0px 0px 0px 2px #2cb3ec; }
